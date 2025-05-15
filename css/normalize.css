@@ -80,6 +80,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 ol,
 ul {
@@ -127,7 +128,7 @@ button {
 
 
 /* common button style */
-.common-btn {
+.common_btn {
   background: var(--color-black);
   color: #fff;
   padding: var(--el-small) var(--el-medium);
@@ -135,7 +136,7 @@ button {
   font-size: var(--fs-14);
   width: fit-content;
 }
-.common-btn:hover {
+.common_btn:hover {
   background: var(--color-gray-3);
 }
 
