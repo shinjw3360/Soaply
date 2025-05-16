@@ -1,0 +1,54 @@
+/* pc - 1020 */
+@media screen and (max-width:1020px) {
+  #main_section .overlay {background: #fff;}
+  .slider_section .swiper-slide > div.slider_image {height:250px;}
+  .insta_section .instar_middle h4 {font-size:1.8rem;}
+  
+}
+/* tablet - 768*/
+@media screen and (max-width:768px) {
+  html {font-size:14px;}
+  header {padding:1.125rem 0; background: #fff; border-bottom:1px solid var(--color-gray-d);}
+  header .container > *:not(.logo, .menu_icon ) {display: none;}
+  header .mobile_menus {display: none; position: absolute; background:#fff; top:100%; z-index:9999; width:var(--ls-full);}
+  header .mobile_menus .nav_lists {display: block; text-align: center;}
+  header .mobile_menus .nav_lists li {border-bottom:1px solid var(--color-gray-d);}
+  header .mobile_menus .nav_lists li a {display: block; padding:1rem 0; width:var(--ls-full);}
+  header .mobile_menus .info {display: flex; justify-content: center; padding:1rem 0; 
+    border-bottom:1px solid var(--color-gray-d);}
+  header .logo {position: static; transform:none;}
+  header .menu_icon {display: block; }
+  header .menu_icon i {font-size:1.5rem;}
+  header .logo a {width:80px;}
+
+  /* main Landing style */
+  #main_section .landing_text_box h2 {text-shadow: 1px 1px 1px var(--color-gray-d);}
+  #main_section .landing_text_box p {width:var(--ls-1-2);}
+  .slider_section .swiper-slide {flex-direction: column; align-items: center; }
+  .slider_section .slider_nav {display: none;}
+  .slider_section .swiper-slide > div.slider_image, .slider_section .swiper-slide > div.slider_text
+  {width:100%; align-items: center;}
+  .slider_section .swiper-slide > div.slider_text p {text-align: center; width:unset;}
+  .slider_section .swiper-slide {width: 100% !important;}
+}
+
+/* mobile - 650 */
+@media screen and (max-width:650px) {
+  .insta_section .instar_wrapper {flex-direction: column; align-items: center; gap:2rem;}
+  .insta_section .instar_wrapper > div {width:80%;}
+  footer .footer_upper, footer .footer_info, footer .footer_lower {flex-direction: column; 
+    align-items: center; gap:1.5rem;}
+  footer .footer_sns li {padding:0 0.25rem;}
+}
+
+
+/* mobile - 500 */
+@media screen and (max-width:500px) {
+  /* main Landing Style */
+  #main_section .landing_text_box {text-align: center;}
+  #main_section .landing_text_box p {width:var(--ls-full);}
+  #main_section .overlay {opacity:0.7;}
+  .slider_section .swiper-slide > div.slider_text {width:100%;}
+  .slider_section .swiper-slide > div.slider_image img {height:100%; object-fit: cover;}
+  .insta_section .instar_wrapper > div {width:100%;}
+}
